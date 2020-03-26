@@ -1,0 +1,117 @@
+*{padding: 0; margin: 0;}
+.mybtn{padding: 6px ; background: white; border: 0.5px solid #22a6b3; border-radius: 5px;color:#22a6b3 }
+.mybtn:hover{background: #22a6b3; color: #FFF}
+.slidershowimg{height: 450px;  object-fit: cover;   opacity: 0.2;}
+.slidcc{background: linear-gradient(0deg, rgba(2,78,85,1) 19%, rgba(204,240,244,1) 100%);}
+.centeredtext{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -80%); color: #FFF; font-family: 'Montserrat Alternates', sans-serif;}.centeredtext p{font-size: 10px;font-family: 'Montserrat', sans-serif;}
+.mybtnlight{position: absolute;top: 60%;left: 50%;transform: translate(-50%, -50%); font-family: 'Montserrat', sans-serif;}
+
+.card-text{margin-left: 20px ; margin-right: 20px ; color: #FFF}
+.card-deck{background: #7ed6df;}
+.card-nav{background: #7ed6df ; padding: 40px}.card-nav p{color: #FFF; font-size: 55px ;font-family: 'Lato', sans-serif;  line-height: 55px;}
+.myawe{font-size: 40px; color: #FFF}
+.card-title{color: #FFF}
+
+.videocon{width: 100%; height: 340px ;background: linear-gradient(0deg, rgba(255,255,255,1) 66%, rgba(126,214,223,1) 66%);}
+.videocon iframe{  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 10px}
+.video-nav{background: #FFF ; padding: 10px ; color: #000; text-align: center;}
+.video-nav h2{font-size: 50px ;font-family: 'Source Sans Pro', sans-serif;  line-height: 40px;}
+.video-nav p{margin-left: 30% ; margin-right: 30%; text-align: justify; font-size: 13px; font-family: 'Montserrat', sans-serif; padding: 20px ;}
+
+.button { background-color: #22a6b3;;  border: none; color: #FFF; padding: 10px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 12px; margin: 4px 2px; cursor: pointer; border-radius: 20px;font-family: 'Montserrat', sans-serif;display: inline-block;}
+.button2{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color: #FFF;; border: none; color: #22a6b3; padding: 10px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 12px; margin: 4px 2px; cursor: pointer; border-radius: 20px; font-family: 'Montserrat', sans-serif; display: inline-block;}
+.button2:hover{ background-color: #22a6b3;;color: #FFF;}
+
+
+
+.card-nav-two{background: #FFF ; padding: 30px}.card-nav-two p{color: #000; font-size: 55px ;font-family: 'Source Sans Pro', sans-serif;  line-height: 55px;}
+.myawetwo{font-size: 40px; color: #22a6b3}
+.card-text-two{margin-left: 5px ; margin-right: 20px ; color: #FFF}
+.card-deck-two{background: #7ed6df;}
+.card-text-two{ color: #000}
+.card-deck-two{background: #7ed6df;}
+..card-title-two{color: #000}
+
+
+* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #2f3640 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #22a6b3;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#22a6b3;
+    font-family: 'Lato', sans-serif;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+.logofooter{height: 90px; width: 200px ;}
+
+.mycolortx{color: #FFF}
+
