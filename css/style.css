@@ -8,7 +8,7 @@
 
 .card-text{margin-left: 20px ; margin-right: 20px ; color: #FFF}
 .card-deck{background: #7ed6df;}
-.card-nav{background: #7ed6df ; padding: 40px}.card-nav p{color: #FFF; font-size: 55px ;font-family: 'Lato', sans-serif;  line-height: 55px;}
+.card-nav{background: #7ed6df ; padding: 45px}.card-nav p{color: #FFF; font-size: 55px ;font-family: 'Lato', sans-serif;  line-height: 55px;}
 .myawe{font-size: 40px; color: #FFF}
 .myawe:hover{transform: rotate(360deg);transition: .5s all ease;}
 .card-title{color: #FFF}
@@ -95,4 +95,15 @@ section .section-title {text-align: center;color: #007b5e;margin-bottom: 50px;te
 .logofooter{height: 90px; width: 200px ;}
 
 .mycolortx{color: #FFF}
+.footertextcop{font-family: 'Source Sans Pro', sans-serif;}
+.linkfooter{font-family: 'Lato', sans-serif;}
+
+.card-fact{background: #7ed6df ;padding: 10px}.card-fact p{color: #FFF; font-size: 55px ;font-family: 'Lato', sans-serif;  line-height: 55px;}
+
+
+.count{font-size: 50px; font-family: 'Lato', sans-serif; color: #FFF}
+.card-title-fact{color:#FFF; font-family: 'Lato', sans-serif;}
+
+
+
 

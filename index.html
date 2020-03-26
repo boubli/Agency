@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -62,7 +61,7 @@
 		      </li>
 
 		       <li class="nav-item">
-		        <a class="nav-link" target="--neblanc" href="contact/contact.html">Contact</a>
+		        <a class="nav-link" href="contact/contact.html">Contact</a>
 		      </li>    
 
 		    </ul>
@@ -179,8 +178,6 @@
 </div>
 
 
-
-
 <div style="background: #FFF" class="card-deck">
   <div style="background-color: #FFF;border: none; margin-left: 40px; margin-right: 40px; margin-bottom: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" class="card wow bounceInUp">
     <div class="card-body">
@@ -210,6 +207,37 @@
 
 
 
+
+<div class="card-fact">
+	<center><p class="wow bounceInLeft">Facts</p></center>
+</div>
+
+<div style="margin-right: 0px;margin-top: -1px;" class="card-deck">
+  <div style="background-color: #7ed6df;border: 1px solid #7ed6df" class="card">
+    <div class="card-body wow bounceInLeft">
+      <center><div id="shiva"><span class="count">200</span></center>
+      <center><h5 class="card-title-fact">Best Financial Planning</h5></center>
+    </div>
+
+  </div>
+  <div style="background-color: #7ed6df;border: 1px solid #7ed6df" class="card">
+    <div class="card-body wow bounceInUp">
+      <center><div id="shiva"><span class="count">200</span></center>
+      <center><h5 class="card-title-fact">Best Financial Planning</h5></center>
+    </div>
+  </div>
+
+  <div style="background-color: #7ed6df;border: 1px solid #7ed6df" class="card">
+    <div class="card-body wow bounceInRight">
+    <center><div id="shiva"><span class="count">200</span></center>
+      <center><h5 class="card-title-fact">Best Financial Planning</h5></center>
+    </div>
+    <br >
+  </div>
+</div>
+
+
+
 <!-- Footer -->
 	<section id="footer">
 		<br />
@@ -217,15 +245,16 @@
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
 				<div class="col-xs-12 col-sm-4 col-md-4 mycolortx wow bounceInLeft">
 					<img class="logofooter" src="files/images/logo.png">
-					<h5>BUSINESS ADDRESS</h5>
-						<p>Lorem ipsum</p>
-
-					<h5>BUSINESS ADDRESS</h5>
-						<p>+2126123256289</p>
-					<h5>BUSINESS ADDRESS</h5>
-						<p>bbb.vloger@gmail.com</p>
-
+					<p style="text-align: justify; color: #FFF">LOREM IPSUM DOLOR SITAMET,CONSECTETUR ADIPISICING
+						ELIT,SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET
+						DOLORE MAGNA ALIQUA.UT ENIM AD MINIM VENIAM,QUIS
+						NOSTRUD EXERCITATION ULLAMCO LABORISNISIUTALIQUIP
+						EX EA COMMODO CONSEQUAT.DUIS AUTE IRURE DOLOR IN
+						REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE
+						EU FUGIAT NULLA PARIATUR.EXCEPTEUR SINT OCCAECAT
+						CUPIDATATNON PROIDENT.</p>
 				</div>
+
 				<div class="col-xs-12 col-sm-4 col-md-4 wow bounceInDown">
 					<h5>ABOU TUS</h5>
 					<p></p>
@@ -264,8 +293,7 @@
 			</div>	
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					<p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
-					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+					<p class="h6 footertextcop">Made  <i style="color: red" class="fas fa-heart"></i>  with &copy All right<a class="text-green ml-2 linkfooter" href="#" target="_blank">Focus Boosting.</a></p>
 				</div>
 				</hr>
 			</div>	
@@ -275,13 +303,28 @@
 
 		
 		<script src="css/wow/dist//wow.min.js"></script>
-              <script>
+            <script>
               new WOW().init();
- </script>
+ 			</script>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script >
+	$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
 
 
 </body>
